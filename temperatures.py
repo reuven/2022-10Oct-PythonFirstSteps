@@ -18,6 +18,8 @@ def f2c(f_temp):
 
 if __name__ == '__main__':
     n = input('Enter degrees: ').strip()
+    n = int(n)
+    
     f_or_c = input('Enter F or C: ').strip()
     
     if f_or_c == 'F':
