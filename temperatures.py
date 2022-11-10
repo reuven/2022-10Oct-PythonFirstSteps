@@ -4,6 +4,7 @@
 # 3. import this module, and show that you can convert temperatures in either direction.
 
 print('Hello from the temp module!')
+print(f'Now in file: __file__')
 
 def c2f(c_temp):
     return c_temp * 1.8 + 32.00
