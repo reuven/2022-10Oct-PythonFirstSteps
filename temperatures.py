@@ -25,7 +25,7 @@ if __name__ == '__main__':
     if f_or_c == 'F':
         print(f'{n} degrees F -> {f2c(n)} C')
     elif f_or_c == 'C':
-        print(f'{n} degrees C -> {f2c(n)} F')
+        print(f'{n} degrees C -> {c2f(n)} F')
     else:
         print(f'Unknown scale {f_or_c}')
         
