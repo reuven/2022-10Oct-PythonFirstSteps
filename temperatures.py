@@ -3,7 +3,7 @@
 # 2. The return value will be the converted temperature.
 # 3. import this module, and show that you can convert temperatures in either direction.
 
-print('Hello from the temp module!')
+print(f'Hello from {__name__}!')
 print(f'Now in file: {__file__}')
 
 def c2f(c_temp):
@@ -12,4 +12,4 @@ def c2f(c_temp):
 def f2c(f_temp):
     return (f_temp - 32) / 1.8 
 
-print('Goodbye from the temp module!')
+print(f'Goodbye from {__name__}!')
